@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <title>Rock, Paper, Scissors game</title>
+</head>
+<body>
+  <button>RULES</button>
+    <!-- start of RullesBook -->
+    <div class="RullesBook">
+      <div class="Rules">
+        <div class="Rules-title">
+          <h1>RULES</h1>
+          <img src="./images/icon-close.svg" alt="">
+        </div>
+        <img src="./images/image-rules-bonus.svg" alt="">
+      </div>
+    </div>
+    <!-- end of RullesBook -->
+  <div class="flied">
+    <!-- score -->
+    <div class="score-contaer">
+      <div class="score">
+        <img src="./images/logo-bonus.svg" alt="">
+        <div class="score-text">
+          <p>SCORE</p>
+          <h1>0</h1>
+        </div>
+      </div>
+    </div>
+    <!-- end of score -->
+    <!-- start of the main game -->
+    <div class="maingame">
+      <div class="circle scissors" data-state="scissors">
+        <img src="./images/icon-scissors.svg" alt="">
+      </div>
+      <div class="circle paper" data-state="paper">
+        <img src="./images/icon-paper.svg" alt="">
+      </div>
+      <div class="circle spock" data-state="spock">
+        <img src="./images/icon-spock.svg" alt="">
+      </div>
+      <div class="circle rock" data-state="rock">
+        <img src="./images/icon-rock.svg" alt="">
+      </div>
+      <div class="circle lizard" data-state="lizard">
+        <img src="./images/icon-lizard.svg" alt="">
+      </div>
+    </div>
+    <!-- end of the main game -->
+    <!-- start next step game -->
+    <div class="next-step end">
+      <!-- <div class="part">
+        <h1>YOU PICKED</h1>
+        <div class="circle lizard win">
+          <img src="./images/icon-lizard.svg" alt="">
+        </div>
+      </div>
+      <div class="reult">
+        <h1>YOU WIN</h1>
+        <button>PLAY AGAIN</button>
+      </div>
+      
+      <div class="part">
+        <h1>THE HOUSE PICKED</h1>
+        <div class="stillchoosing"></div>
+        <div class="circle lizard end">
+          <img src="./images/icon-lizard.svg" alt="">
+        </div>
+      </div> -->
+    </div>
+    <!-- end next step game -->
+  </div>   
+  <script src="index.js"></script> 
+</body>
+</html>
